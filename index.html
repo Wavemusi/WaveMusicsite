@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">W A V E</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="https://dsc.gg/wavemusicinvite">INVITE</a></li>
+          <li><a href="https://cutt.ly/pBDkxe2">VOTE</a></li>
+          <li><a href="https://discord.gg/raFsFRwQNz">SUPPORT SERVER</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">W A V E</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Wave</h1>
+        <p class="section__text__p2">Discord Music Bot</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-1"   onclick="location.href='https://dsc.gg/wavemusicinvite'"
+            >
+            Invite
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='https://cutt.ly/pBDkxe2'"
+            >
+            Vote
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <p>Bot Servers<br /></p>
+              <h3>74</h3>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <p>Bot Users<br /></p>
+              <h3>4189</h3>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              "Wave Music Bot" is likely to have features like playing music from various sources like, Spotify youtube music. user-friendly commands, and a smooth user experience!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <h1 class="title">My Commands</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/screenshote.png"
+            alt="Profile picture"
+            class="about-pic"
+/>
+          <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/screenshot2.png"
+            alt="Profile picture"
+            class="about-pic"
+ />
+
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="https://discord.com/users/966366552884641812"</a>Click Here</p>
+      </div>
+    </section>
+    <footer>
+      </nav>
+      <p>Copyright &#169; 2023 Wave. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
